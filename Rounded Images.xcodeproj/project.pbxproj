@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4400879317A021DB00357121 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 4400878E17A021DB00357121 /* UIImage+Alpha.m */; };
+		4400879417A021DB00357121 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 4400879017A021DB00357121 /* UIImage+Resize.m */; };
+		4400879517A021DB00357121 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 4400879217A021DB00357121 /* UIImage+RoundedCorner.m */; };
+		441309A817A00963006F047C /* VBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 441309A717A00963006F047C /* VBCell.m */; };
+		441309AA17A00978006F047C /* VBCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 441309A917A00978006F047C /* VBCell.xib */; };
+		441309AC17A00BB6006F047C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441309AB17A00BB6006F047C /* QuartzCore.framework */; };
+		441309B117A01314006F047C /* VBImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 441309B017A01314006F047C /* VBImageView.m */; };
 		448E458617A002530036C734 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 448E458517A002530036C734 /* UIKit.framework */; };
 		448E458817A002530036C734 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 448E458717A002530036C734 /* Foundation.framework */; };
 		448E458A17A002530036C734 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 448E458917A002530036C734 /* CoreGraphics.framework */; };
@@ -18,9 +25,22 @@
 		448E459C17A002530036C734 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 448E459B17A002530036C734 /* Default-568h@2x.png */; };
 		448E459F17A002530036C734 /* VBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 448E459E17A002530036C734 /* VBViewController.m */; };
 		448E45A217A002530036C734 /* VBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 448E45A017A002530036C734 /* VBViewController.xib */; };
+		F320AE6DC16447E89F1D80F1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EA49554D344006B2C700D7 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4400878D17A021DB00357121 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		4400878E17A021DB00357121 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		4400878F17A021DB00357121 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		4400879017A021DB00357121 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		4400879117A021DB00357121 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		4400879217A021DB00357121 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		441309A617A00963006F047C /* VBCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBCell.h; sourceTree = "<group>"; };
+		441309A717A00963006F047C /* VBCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBCell.m; sourceTree = "<group>"; };
+		441309A917A00978006F047C /* VBCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VBCell.xib; sourceTree = "<group>"; };
+		441309AB17A00BB6006F047C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		441309AF17A01314006F047C /* VBImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBImageView.h; sourceTree = "<group>"; };
+		441309B017A01314006F047C /* VBImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBImageView.m; sourceTree = "<group>"; };
 		448E458217A002530036C734 /* Rounded Images.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rounded Images.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		448E458517A002530036C734 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		448E458717A002530036C734 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +57,8 @@
 		448E459D17A002530036C734 /* VBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBViewController.h; sourceTree = "<group>"; };
 		448E459E17A002530036C734 /* VBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBViewController.m; sourceTree = "<group>"; };
 		448E45A117A002530036C734 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VBViewController.xib; sourceTree = "<group>"; };
+		48EA49554D344006B2C700D7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E4E82192E34B68BFB9D8A5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,21 +66,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				441309AC17A00BB6006F047C /* QuartzCore.framework in Frameworks */,
 				448E458617A002530036C734 /* UIKit.framework in Frameworks */,
 				448E458817A002530036C734 /* Foundation.framework in Frameworks */,
 				448E458A17A002530036C734 /* CoreGraphics.framework in Frameworks */,
+				F320AE6DC16447E89F1D80F1 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4400878C17A021DB00357121 /* UIImage-categories */ = {
+			isa = PBXGroup;
+			children = (
+				4400878D17A021DB00357121 /* UIImage+Alpha.h */,
+				4400878E17A021DB00357121 /* UIImage+Alpha.m */,
+				4400878F17A021DB00357121 /* UIImage+Resize.h */,
+				4400879017A021DB00357121 /* UIImage+Resize.m */,
+				4400879117A021DB00357121 /* UIImage+RoundedCorner.h */,
+				4400879217A021DB00357121 /* UIImage+RoundedCorner.m */,
+			);
+			path = "UIImage-categories";
+			sourceTree = "<group>";
+		};
+		441309AD17A00FC7006F047C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				441309A617A00963006F047C /* VBCell.h */,
+				441309A717A00963006F047C /* VBCell.m */,
+				441309A917A00978006F047C /* VBCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		441309AE17A00FCF006F047C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				448E459D17A002530036C734 /* VBViewController.h */,
+				448E459E17A002530036C734 /* VBViewController.m */,
+				448E45A017A002530036C734 /* VBViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		441309B217A01319006F047C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				441309AF17A01314006F047C /* VBImageView.h */,
+				441309B017A01314006F047C /* VBImageView.m */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
 		448E457917A002530036C734 = {
 			isa = PBXGroup;
 			children = (
 				448E458B17A002530036C734 /* Rounded Images */,
 				448E458417A002530036C734 /* Frameworks */,
 				448E458317A002530036C734 /* Products */,
+				C3E4E82192E34B68BFB9D8A5 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,9 +140,11 @@
 		448E458417A002530036C734 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				441309AB17A00BB6006F047C /* QuartzCore.framework */,
 				448E458517A002530036C734 /* UIKit.framework */,
 				448E458717A002530036C734 /* Foundation.framework */,
 				448E458917A002530036C734 /* CoreGraphics.framework */,
+				48EA49554D344006B2C700D7 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -83,11 +152,12 @@
 		448E458B17A002530036C734 /* Rounded Images */ = {
 			isa = PBXGroup;
 			children = (
+				4400878C17A021DB00357121 /* UIImage-categories */,
+				441309B217A01319006F047C /* Image */,
+				441309AE17A00FCF006F047C /* Controller */,
+				441309AD17A00FC7006F047C /* Cell */,
 				448E459417A002530036C734 /* VBAppDelegate.h */,
 				448E459517A002530036C734 /* VBAppDelegate.m */,
-				448E459D17A002530036C734 /* VBViewController.h */,
-				448E459E17A002530036C734 /* VBViewController.m */,
-				448E45A017A002530036C734 /* VBViewController.xib */,
 				448E458C17A002530036C734 /* Supporting Files */,
 			);
 			path = "Rounded Images";
@@ -114,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 448E45A517A002530036C734 /* Build configuration list for PBXNativeTarget "Rounded Images" */;
 			buildPhases = (
+				F1C455E6D2E7481288E85C73 /* Check Pods Manifest.lock */,
 				448E457E17A002530036C734 /* Sources */,
 				448E457F17A002530036C734 /* Frameworks */,
 				448E458017A002530036C734 /* Resources */,
+				D22D50DE61CA4F0A99000FED /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,10 +236,42 @@
 				448E459A17A002530036C734 /* Default@2x.png in Resources */,
 				448E459C17A002530036C734 /* Default-568h@2x.png in Resources */,
 				448E45A217A002530036C734 /* VBViewController.xib in Resources */,
+				441309AA17A00978006F047C /* VBCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D22D50DE61CA4F0A99000FED /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		F1C455E6D2E7481288E85C73 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		448E457E17A002530036C734 /* Sources */ = {
@@ -177,6 +281,11 @@
 				448E459217A002530036C734 /* main.m in Sources */,
 				448E459617A002530036C734 /* VBAppDelegate.m in Sources */,
 				448E459F17A002530036C734 /* VBViewController.m in Sources */,
+				441309A817A00963006F047C /* VBCell.m in Sources */,
+				441309B117A01314006F047C /* VBImageView.m in Sources */,
+				4400879317A021DB00357121 /* UIImage+Alpha.m in Sources */,
+				4400879417A021DB00357121 /* UIImage+Resize.m in Sources */,
+				4400879517A021DB00357121 /* UIImage+RoundedCorner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,17 +369,21 @@
 		};
 		448E45A617A002530036C734 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3E4E82192E34B68BFB9D8A5 /* Pods.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vitaliy Berg (8247S34VCP)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rounded Images/Rounded Images-Prefix.pch";
 				INFOPLIST_FILE = "Rounded Images/Rounded Images-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9C9C42B0-1827-48CB-BDEA-EEA6C00BA011";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		448E45A717A002530036C734 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3E4E82192E34B68BFB9D8A5 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rounded Images/Rounded Images-Prefix.pch";
@@ -299,6 +412,7 @@
 				448E45A717A002530036C734 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
